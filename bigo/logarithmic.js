@@ -23,8 +23,5 @@ const targetValue = 23;
 
 console.log(binarySearch(sortedArray, targetValue))
 
-// A common example of a logarithmic algorithm is binary search. 
-// It works on sorted data by repeatedly dividing the search interval in half. 
-// If the middle element is the target value, the search is successful. 
-// If the target is less than the middle element, the search continues in the left half; otherwise, it continues in the right half. 
-// This process continues until the target is found or the interval is empty.
+//Binary search is a classic example of logarithmic time complexity where at every step, the algorithm breaks the list into half until it finds the desired element. 
+// As the size of the input increases, the growth of the time taken by an algorithm with logarithmic complexity grows slowly because it divides the problem into smaller parts in each step.
