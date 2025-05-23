@@ -1,4 +1,5 @@
 // Linear search
+// Elements are checked sequentially ( 1 by 1)
 const arr1 = [1,2,3,4,5,6,7];
 
 function linearSearch(arr, target) {
