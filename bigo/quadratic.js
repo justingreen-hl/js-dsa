@@ -1,5 +1,5 @@
 // O(n^2)
-// Quadratic also known as Polynomial
+// Quadratic also referred to as Polynomial
 const arr = [1,2,3,4,5,6,7];
 
 for(let i = 0; i < arr.length; i++) {
